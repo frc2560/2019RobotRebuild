@@ -47,7 +47,7 @@ public class RobotContainer
 
         m_robotDrive.setDefaultCommand(
                 //This is an inline command you can also make a whole new command if wanted
-                new RunCommand(() -> m_robotDrive.aDrive(joy1.getRawAxis(1)* -1, joy1.getRawAxis(2))));
+                new RunCommand(() -> m_robotDrive.aDrive(joy1.getRawAxis(1)* -1, joy1.getRawAxis(2)),m_robotDrive));
     }
 
     /**

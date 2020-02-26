@@ -78,9 +78,9 @@ public final class Constants
     public static final double kStabilizationD = 0;
 
     public static final double kTurnP = 1;
-    public static final double kTurnI = 0;
+    public static final double kTurnI = 0.5;
     public static final double kTurnD = 0;
 
     public static final double kTurnToleranceDeg = 5;
-    public static final double kTurnRateToleranceDegPerS = 10; // degrees per second
+    public static final double kTurnRateToleranceDegPerS = 5; // degrees per second
 }
